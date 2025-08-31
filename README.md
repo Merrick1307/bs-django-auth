@@ -61,7 +61,7 @@ A Django-based REST API for user authentication, providing endpoints for registr
      Replace `your_user`, `your_password`, `your_db`, `your-db-server-addr`, `your-redis-addr`,  and `your-secret-key` with your values.
 
    - **Option 2: Edit Dockerfile**
-     Modify `Dockerfile` in the project root to replace default values:
+     Modify `Dockerfile.local` in the project root to replace default values:
      ```dockerfile
      # Dockerfile
      FROM python:3.11-slim
